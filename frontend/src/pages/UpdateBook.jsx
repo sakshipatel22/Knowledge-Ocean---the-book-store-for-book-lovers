@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const UpdateBook = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
     const {id} = useParams();
     const [Data, setData] = useState({
         url: "",

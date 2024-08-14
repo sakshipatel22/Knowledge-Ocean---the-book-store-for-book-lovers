@@ -4,7 +4,7 @@ import Loader from "../Loader/Loader";
 import { Link } from "react-router-dom";
 
 const Settings = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
 
   const [Value, setValue] = useState({address: " "});
   const [ProfileData, setProfileData] = useState({address: ""});

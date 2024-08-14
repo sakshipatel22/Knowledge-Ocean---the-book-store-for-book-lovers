@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import { MdDelete } from "react-icons/md";
 
 const ViewBookDetails = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
   const { id } = useParams();
   const [Data, setData] = useState(null);
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);

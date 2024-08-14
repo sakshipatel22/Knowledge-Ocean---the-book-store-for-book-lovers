@@ -8,7 +8,7 @@ import { FaCheck } from "react-icons/fa";
 import SeeUserData from "./SeeUserData";
 
 const AllOrders = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
   const [AllOrders, setAllOrders] = useState();
   const [Options, setOptions] = useState(-1);
   const [Values, setValues] = useState({ status: "" });

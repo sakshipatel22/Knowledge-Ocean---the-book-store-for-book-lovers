@@ -5,7 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
   const navigate = useNavigate();
   const [Cart, setCart] = useState();
   const [Total, setTotal] = useState(0);

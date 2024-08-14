@@ -6,7 +6,7 @@ import Loader from "../components/Loader/Loader";
 import MobileNav from "../components/Profile/MobileNav";
 
 const Profile = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
   const [profile, setProfile] = useState(null);
   const headers = {
     id: localStorage.getItem("id"),

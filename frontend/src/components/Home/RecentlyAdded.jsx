@@ -4,7 +4,7 @@ import BookCard from '../BookCard/BookCard';
 import Loader from '../Loader/Loader';
 
 const RecentlyAdded = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
   const [Data, setData] = useState(null); 
   const [loading, setLoading] = useState(true); 
   const [error, setError] = useState(null); 

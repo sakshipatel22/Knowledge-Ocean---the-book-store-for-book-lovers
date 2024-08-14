@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import BookCard from "../BookCard/BookCard";
 
 const Favourites = () => {
-  const url = "http://localhost:3000";
+  const url = "https://knowledge-ocean-the-book-store-for-book.onrender.com";
   const [FavouriteBook, setFavouriteBook] = useState();
   const headers = {
     id: localStorage.getItem("id"),
