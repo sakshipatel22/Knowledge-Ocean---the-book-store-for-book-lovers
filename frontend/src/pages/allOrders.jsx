@@ -130,8 +130,8 @@ const AllOrders = () => {
                           "Out for delivery",
                           "Delivered",
                           "Canceled",
-                        ].map((items, j) => (
-                          <option value={items} key={j}>
+                        ].map((items, i) => (
+                          <option value={items} key={i}>
                             {items}
                           </option>
                         ))}
